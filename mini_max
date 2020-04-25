@@ -1,0 +1,12 @@
+arr = list(map(int,input().split()))
+arr1 = []
+
+for x in range(len(arr)):
+    temp_arr = arr.copy()
+    temp_arr.remove(arr[x])
+    temp_var = sum(temp_arr)
+    arr1.append(temp_var)
+
+arr2 = [min(arr1),max(arr1)]
+
+print(*arr2,sep = " ")
