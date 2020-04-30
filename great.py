@@ -21,3 +21,6 @@ for x in arr1:
 
 
 print(ans)
+#second problem of TCS
+#input: 459 500
+#output: 549
